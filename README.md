@@ -1,7 +1,7 @@
 # pylint_af
 
 ![GitHub repo size](https://img.shields.io/github/issues/AlbertFarkhutdinov/pylint_af)
-![PyPI version](https://img.shields.io/pypi/v/pretty-repr)
+![PyPI version](https://img.shields.io/pypi/v/pylint-af)
 ![GitHub contributors](https://img.shields.io/github/contributors/AlbertFarkhutdinov/pylint_af)
 ![GitHub stars](https://img.shields.io/github/stars/AlbertFarkhutdinov/pylint_af)
 ![GitHub forks](https://img.shields.io/github/forks/AlbertFarkhutdinov/pylint_af)

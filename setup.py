@@ -10,7 +10,7 @@ requirements = ["pylint==2.10.2"]
 
 setuptools.setup(
     name="pylint_af",
-    version="1.0.0",
+    version="1.0.1",
     author="Albert Farkhutdinov",
     author_email="albertfarhutdinov@gmail.com",
     description=(
