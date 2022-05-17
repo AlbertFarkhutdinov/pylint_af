@@ -89,7 +89,10 @@ class PyLinter:
                 continue
             for file in files:
                 if dir_name not in ignored and file.endswith('.py'):
-                    inspected_files.append(os.path.join(dir_name, file))
+                    file_name = os.path.join(dir_name, file)
+                    if file_name in ignored:
+                        continue
+                    inspected_files.append(file_name)
         if not inspected_files:
             raise ValueError('The list of inspected files is empty.')
         return inspected_files

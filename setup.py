@@ -6,11 +6,11 @@ import setuptools
 with open("README.md", mode="r", encoding="utf8") as fh:
     long_description = fh.read()
 
-requirements = ["pylint==2.10.2"]
+requirements = ["pylint==2.13.9"]
 
 setuptools.setup(
     name="pylint_af",
-    version="1.0.1",
+    version="1.0.2",
     author="Albert Farkhutdinov",
     author_email="albertfarhutdinov@gmail.com",
     description=(
